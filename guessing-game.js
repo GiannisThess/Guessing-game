@@ -71,7 +71,7 @@ let askRange = () => {
 }
 
 let askLimit = () => {
-    rl.question('Please put a limit on attempts:', limit => {
+    rl.question('Please put a limit on attempts: ', limit => {
         numAttempts = limit;
         askRange();
 
